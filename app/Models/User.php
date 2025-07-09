@@ -45,4 +45,16 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function pets()
+    {
+        return $this->hasMany(Pet::class);
+    }
+
+    // public function is_vet() {}
+
+    public function appointments()
+    {
+        return $this->hasMany(Appointment::class);
+    }
 }

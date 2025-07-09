@@ -18,7 +18,7 @@ return new class extends Migration
         Schema::create('appointments', function (Blueprint $table) {
             $table->id();
             $table->foreignIdFor(User::class)->constrained()->cascadeOnDelete();
-            $table->foreignFor(Vet::class)->constrained()->cascadeOnDelete();
+            $table->foreignIdFor(Vet::class)->constrained()->cascadeOnDelete();
             $table->foreignIdFor(Pet::class)->constrained()->cascadeOnDelete();
             $table->dateTime('consultation_date');
             $table->string('type'); // listed on obsidian

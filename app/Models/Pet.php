@@ -9,4 +9,9 @@ class Pet extends Model
 {
     /** @use HasFactory<\Database\Factories\PetFactory> */
     use HasFactory;
+
+    public function appointments()
+    {
+        return $this->hasMany(Appointment::class);
+    }
 }
