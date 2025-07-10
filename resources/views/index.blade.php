@@ -158,41 +158,334 @@
             <!-- End Col -->
 
             <div class="relative ms-4">
-                <img class="w-full rounded-md"
+                <img class="w-[90%] rounded-md"
                     src="https://images.unsplash.com/photo-1665686377065-08ba896d16fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&h=800&q=80"
                     alt="Hero Image">
-                <div
-                    class="absolute inset-0 -z-1 bg-linear-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0">
-                </div>
-
-                <!-- SVG-->
-                <div class="absolute bottom-0 start-0">
-                    <svg class="w-2/3 ms-auto h-auto text-white dark:text-neutral-900" width="630" height="451"
-                        viewBox="0 0 630 451" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="531" y="352" width="99" height="99" fill="currentColor" />
-                        <rect x="140" y="352" width="106" height="99" fill="currentColor" />
-                        <rect x="482" y="402" width="64" height="49" fill="currentColor" />
-                        <rect x="433" y="402" width="63" height="49" fill="currentColor" />
-                        <rect x="384" y="352" width="49" height="50" fill="currentColor" />
-                        <rect x="531" y="328" width="50" height="50" fill="currentColor" />
-                        <rect x="99" y="303" width="49" height="58" fill="currentColor" />
-                        <rect x="99" y="352" width="49" height="50" fill="currentColor" />
-                        <rect x="99" y="392" width="49" height="59" fill="currentColor" />
-                        <rect x="44" y="402" width="66" height="49" fill="currentColor" />
-                        <rect x="234" y="402" width="62" height="49" fill="currentColor" />
-                        <rect x="334" y="303" width="50" height="49" fill="currentColor" />
-                        <rect x="581" width="49" height="49" fill="currentColor" />
-                        <rect x="581" width="49" height="64" fill="currentColor" />
-                        <rect x="482" y="123" width="49" height="49" fill="currentColor" />
-                        <rect x="507" y="124" width="49" height="24" fill="currentColor" />
-                        <rect x="531" y="49" width="99" height="99" fill="currentColor" />
-                    </svg>
-                </div>
-                <!-- End SVG-->
             </div>
             <!-- End Col -->
         </div>
         <!-- End Grid -->
     </div>
     <!-- End Hero -->
+
+    <div class="max-w-[85rem] mx-auto text-center py-15">
+        <h1 class="text-6xl font-bold">Hello</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quis amet harum rerum maxime delectus veniam
+            ullam magni, autem aut?</p>
+    </div>
+
+    <!-- Features -->
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <!-- Tab Nav -->
+        <nav class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-y-px sm:gap-y-0 sm:gap-x-4" aria-label="Tabs"
+            role="tablist" aria-orientation="horizontal">
+            <button type="button"
+                class="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent w-full flex flex-col text-start hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-neutral-800 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800 active"
+                id="tabs-with-card-item-1" aria-selected="true" data-hs-tab="#tabs-with-card-1"
+                aria-controls="tabs-with-card-1" role="tab">
+                <svg class="shrink-0 hidden sm:block size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-white"
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z" />
+                    <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z" />
+                    <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z" />
+                    <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z" />
+                    <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z" />
+                </svg>
+                <span class="sm:mt-5">
+                    <span
+                        class="hs-tab-active:text-blue-600 block font-semibold text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200">All-in-one
+                        workspace</span>
+                    <span class="hidden lg:block mt-2 text-gray-800 dark:text-neutral-200">Create a business,
+                        whether you’ve got a fresh idea.</span>
+                </span>
+            </button>
+
+            <button type="button"
+                class="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent w-full flex flex-col text-start hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-neutral-800 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                id="tabs-with-card-item-2" aria-selected="false" data-hs-tab="#tabs-with-card-2"
+                aria-controls="tabs-with-card-2" role="tab">
+                <svg class="shrink-0 hidden sm:block size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-white"
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m12 14 4-4" />
+                    <path d="M3.34 19a10 10 0 1 1 17.32 0" />
+                </svg>
+                <span class="sm:mt-5">
+                    <span
+                        class="hs-tab-active:text-blue-600 block font-semibold text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200">Automation
+                        on a whole new level</span>
+                    <span class="hidden lg:block mt-2 text-gray-800 dark:text-neutral-200">Use automation to scale
+                        campaigns profitably and save time doing it.</span>
+                </span>
+            </button>
+
+            <button type="button"
+                class="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent w-full flex flex-col text-start hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-neutral-800 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                id="tabs-with-card-item-3" aria-selected="false" data-hs-tab="#tabs-with-card-3"
+                aria-controls="tabs-with-card-3" role="tab">
+                <svg class="shrink-0 hidden sm:block size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-white"
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
+                    <path d="M5 3v4" />
+                    <path d="M19 17v4" />
+                    <path d="M3 5h4" />
+                    <path d="M17 19h4" />
+                </svg>
+                <span class="sm:mt-5">
+                    <span
+                        class="hs-tab-active:text-blue-600 block font-semibold text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200">Solving
+                        problems for every team</span>
+                    <span class="hidden lg:block mt-2 text-gray-800 dark:text-neutral-200">One tool for your company
+                        to share knowledge and ship projects.</span>
+                </span>
+            </button>
+        </nav>
+        <!-- End Tab Nav -->
+
+        <!-- Tab Content -->
+        <div class="mt-12 md:mt-16">
+            <div id="tabs-with-card-1" role="tabpanel" aria-labelledby="tabs-with-card-item-1">
+                <!-- Devices -->
+                <div class="max-w-[1140px] lg:pb-32 relative">
+                    <!-- Mobile Device -->
+                    <figure class="hidden absolute bottom-0 start-0 z-2 max-w-full w-60 h-auto mb-20 ms-20 lg:block">
+                        <div
+                            class="p-1.5 bg-gray-100 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(45_55_75_/_20%),_0_2rem_4rem_-2rem_rgb(45_55_75_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(45_55_75_/_20%)] dark:shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)] dark:bg-neutral-700">
+                            <img class="max-w-full rounded-[1.25rem] h-auto" src="../assets/img/mockups/img9.jpg"
+                                alt="Features Image">
+                        </div>
+                    </figure>
+                    <!-- End Mobile Device -->
+
+                    <!-- Browser Device -->
+                    <figure
+                        class="ms-auto me-20 relative z-1 max-w-full w-3xl h-auto shadow-[0_2.75rem_3.5rem_-2rem_rgb(45_55_75_/_20%),_0_0_5rem_-2rem_rgb(45_55_75_/_15%)] dark:shadow-[0_2.75rem_3.5rem_-2rem_rgb(0_0_0_/_20%),_0_0_5rem_-2rem_rgb(0_0_0_/_15%)] rounded-b-lg">
+                        <div
+                            class="relative flex items-center max-w-3xl bg-white border-b border-gray-100 rounded-t-lg py-2 px-24 dark:bg-neutral-800 dark:border-neutral-700">
+                            <div class="flex gap-x-1 absolute top-2/4 start-4 -translate-y-1">
+                                <span class="size-2 bg-gray-200 rounded-full dark:bg-neutral-700"></span>
+                                <span class="size-2 bg-gray-200 rounded-full dark:bg-neutral-700"></span>
+                                <span class="size-2 bg-gray-200 rounded-full dark:bg-neutral-700"></span>
+                            </div>
+                            <div
+                                class="flex justify-center items-center size-full bg-gray-200 text-[.25rem] text-gray-800 rounded-sm sm:text-[.5rem] dark:bg-neutral-700 dark:text-neutral-200">
+                                www.preline.co</div>
+                        </div>
+
+                        <div class="bg-gray-800 rounded-b-lg">
+                            <img class="max-w-full h-auto rounded-b-lg" src="../assets/img/mockups/img8.jpg"
+                                alt="Features Image">
+                        </div>
+                    </figure>
+                    <!-- End Browser Device -->
+                </div>
+                <!-- End Devices -->
+            </div>
+
+            <div id="tabs-with-card-2" class="hidden" role="tabpanel" aria-labelledby="tabs-with-card-item-2">
+                <!-- Devices -->
+                <div class="max-w-[1140px] lg:pb-32 relative">
+                    <!-- Mobile Device -->
+                    <figure class="hidden absolute bottom-0 start-0 z-2 max-w-full w-60 h-auto mb-20 ms-20 lg:block">
+                        <div
+                            class="p-1.5 bg-gray-700 shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)] rounded-3xl">
+                            <img class="max-w-full rounded-[1.25rem] h-auto" src="../assets/img/mockups/img11.jpg"
+                                alt="Features Image">
+                        </div>
+                    </figure>
+                    <!-- End Mobile Device -->
+
+                    <!-- Browser Device -->
+                    <figure
+                        class="ms-auto me-20 relative z-1 max-w-full w-3xl h-auto shadow-shadow-[0_2.75rem_3.5rem_-2rem_rgb(0_0_0_/_20%),_0_0_5rem_-2rem_rgb(0_0_0_/_15%)] rounded-b-lg">
+                        <div
+                            class="relative flex items-center max-w-3xl bg-gray-800 border-b border-gray-700 rounded-t-lg py-2 px-24">
+                            <div class="flex gap-x-1 absolute top-2/4 start-4 -translate-y-1">
+                                <span class="size-2 bg-gray-700 rounded-full"></span>
+                                <span class="size-2 bg-gray-700 rounded-full"></span>
+                                <span class="size-2 bg-gray-700 rounded-full"></span>
+                            </div>
+                            <div
+                                class="flex justify-center items-center size-full bg-gray-700 text-[.25rem] sm:text-[.5rem] text-gray-200 rounded-sm">
+                                www.preline.co</div>
+                        </div>
+
+                        <div class="bg-gray-800 rounded-b-lg">
+                            <img class="max-w-full h-auto rounded-b-lg" src="../assets/img/mockups/img10.jpg"
+                                alt="Features Image">
+                        </div>
+                    </figure>
+                    <!-- End Browser Device -->
+                </div>
+                <!-- End Devices -->
+            </div>
+
+            <div id="tabs-with-card-3" class="hidden" role="tabpanel" aria-labelledby="tabs-with-card-item-3">
+                <!-- Devices -->
+                <div class="max-w-[1140px] lg:pb-32 relative">
+                    <!-- Mobile Device -->
+                    <figure class="hidden absolute bottom-0 start-0 z-2 max-w-full w-60 h-auto mb-20 ms-20 lg:block">
+                        <div
+                            class="p-1.5 bg-gray-100 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(45_55_75_/_20%),_0_2rem_4rem_-2rem_rgb(45_55_75_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(45_55_75_/_20%)] dark:shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)] dark:bg-neutral-700">
+                            <img class="max-w-full rounded-[1.25rem] h-auto" src="../assets/img/mockups/img13.jpg"
+                                alt="Features Image">
+                        </div>
+                    </figure>
+                    <!-- End Mobile Device -->
+
+                    <!-- Browser Device -->
+                    <figure
+                        class="ms-auto me-20 relative z-1 max-w-full w-3xl h-auto shadow-[0_2.75rem_3.5rem_-2rem_rgb(45_55_75_/_20%),_0_0_5rem_-2rem_rgb(45_55_75_/_15%)] dark:shadow-[0_2.75rem_3.5rem_-2rem_rgb(0_0_0_/_20%),_0_0_5rem_-2rem_rgb(0_0_0_/_15%)] rounded-b-lg">
+                        <div
+                            class="relative flex items-center max-w-3xl bg-white border-b border-gray-100 rounded-t-lg py-2 px-24 dark:bg-neutral-800 dark:border-neutral-700">
+                            <div class="flex gap-x-1 absolute top-2/4 start-4 -translate-y-1">
+                                <span class="size-2 bg-gray-200 rounded-full dark:bg-neutral-700"></span>
+                                <span class="size-2 bg-gray-200 rounded-full dark:bg-neutral-700"></span>
+                                <span class="size-2 bg-gray-200 rounded-full dark:bg-neutral-700"></span>
+                            </div>
+                            <div
+                                class="flex justify-center items-center size-full bg-gray-200 text-[.25rem] text-gray-800 rounded-sm sm:text-[.5rem] dark:bg-neutral-700 dark:text-neutral-200">
+                                www.preline.co</div>
+                        </div>
+
+                        <div class="bg-gray-800 rounded-b-lg">
+                            <img class="max-w-full h-auto rounded-b-lg" src="../assets/img/mockups/img12.jpg"
+                                alt="Features Image">
+                        </div>
+                    </figure>
+                    <!-- End Browser Device -->
+                </div>
+                <!-- End Devices -->
+            </div>
+        </div>
+        <!-- End Tab Content -->
+    </div>
+    <!-- End Features -->
+    
+    <!-- Testimonials -->
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <!-- Grid -->
+        <div class="md:grid md:grid-cols-2 md:gap-10 lg:gap-16 md:items-center">
+            <div class="hidden md:block mb-24 md:mb-0 sm:px-6">
+                <div class="relative">
+                    <img class="rounded-xl"
+                        src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=500&h=600&q=80"
+                        alt="Avatar">
+
+                    <!-- SVG Element -->
+                    <div class="absolute bottom-0 start-0 -z-1 translate-y-10 -translate-x-14">
+                        <svg class="max-w-40 h-auto text-gray-400 dark:text-neutral-700" width="696" height="653"
+                            viewBox="0 0 696 653" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="72.5" cy="29.5" r="29.5" fill="currentColor" />
+                            <circle cx="171.5" cy="29.5" r="29.5" fill="currentColor" />
+                            <circle cx="270.5" cy="29.5" r="29.5" fill="currentColor" />
+                            <circle cx="369.5" cy="29.5" r="29.5" fill="currentColor" />
+                            <circle cx="468.5" cy="29.5" r="29.5" fill="currentColor" />
+                            <circle cx="567.5" cy="29.5" r="29.5" fill="currentColor" />
+                            <circle cx="666.5" cy="29.5" r="29.5" fill="currentColor" />
+                            <circle cx="29.5" cy="128.5" r="29.5" fill="currentColor" />
+                            <circle cx="128.5" cy="128.5" r="29.5" fill="currentColor" />
+                            <circle cx="227.5" cy="128.5" r="29.5" fill="currentColor" />
+                            <circle cx="326.5" cy="128.5" r="29.5" fill="currentColor" />
+                            <circle cx="425.5" cy="128.5" r="29.5" fill="currentColor" />
+                            <circle cx="524.5" cy="128.5" r="29.5" fill="currentColor" />
+                            <circle cx="623.5" cy="128.5" r="29.5" fill="currentColor" />
+                            <circle cx="72.5" cy="227.5" r="29.5" fill="currentColor" />
+                            <circle cx="171.5" cy="227.5" r="29.5" fill="currentColor" />
+                            <circle cx="270.5" cy="227.5" r="29.5" fill="currentColor" />
+                            <circle cx="369.5" cy="227.5" r="29.5" fill="currentColor" />
+                            <circle cx="468.5" cy="227.5" r="29.5" fill="currentColor" />
+                            <circle cx="567.5" cy="227.5" r="29.5" fill="currentColor" />
+                            <circle cx="666.5" cy="227.5" r="29.5" fill="currentColor" />
+                            <circle cx="29.5" cy="326.5" r="29.5" fill="currentColor" />
+                            <circle cx="128.5" cy="326.5" r="29.5" fill="currentColor" />
+                            <circle cx="227.5" cy="326.5" r="29.5" fill="currentColor" />
+                            <circle cx="326.5" cy="326.5" r="29.5" fill="currentColor" />
+                            <circle cx="425.5" cy="326.5" r="29.5" fill="currentColor" />
+                            <circle cx="524.5" cy="326.5" r="29.5" fill="currentColor" />
+                            <circle cx="623.5" cy="326.5" r="29.5" fill="currentColor" />
+                            <circle cx="72.5" cy="425.5" r="29.5" fill="currentColor" />
+                            <circle cx="171.5" cy="425.5" r="29.5" fill="currentColor" />
+                            <circle cx="270.5" cy="425.5" r="29.5" fill="currentColor" />
+                            <circle cx="369.5" cy="425.5" r="29.5" fill="currentColor" />
+                            <circle cx="468.5" cy="425.5" r="29.5" fill="currentColor" />
+                            <circle cx="567.5" cy="425.5" r="29.5" fill="currentColor" />
+                            <circle cx="666.5" cy="425.5" r="29.5" fill="currentColor" />
+                            <circle cx="29.5" cy="524.5" r="29.5" fill="currentColor" />
+                            <circle cx="128.5" cy="524.5" r="29.5" fill="currentColor" />
+                            <circle cx="227.5" cy="524.5" r="29.5" fill="currentColor" />
+                            <circle cx="326.5" cy="524.5" r="29.5" fill="currentColor" />
+                            <circle cx="425.5" cy="524.5" r="29.5" fill="currentColor" />
+                            <circle cx="524.5" cy="524.5" r="29.5" fill="currentColor" />
+                            <circle cx="623.5" cy="524.5" r="29.5" fill="currentColor" />
+                            <circle cx="72.5" cy="623.5" r="29.5" fill="currentColor" />
+                            <circle cx="171.5" cy="623.5" r="29.5" fill="currentColor" />
+                            <circle cx="270.5" cy="623.5" r="29.5" fill="currentColor" />
+                            <circle cx="369.5" cy="623.5" r="29.5" fill="currentColor" />
+                            <circle cx="468.5" cy="623.5" r="29.5" fill="currentColor" />
+                            <circle cx="567.5" cy="623.5" r="29.5" fill="currentColor" />
+                            <circle cx="666.5" cy="623.5" r="29.5" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <!-- End SVG Element -->
+                </div>
+            </div>
+            <!-- End Col -->
+
+            <div>
+                <!-- Blockquote -->
+                <blockquote class="relative">
+                    <svg class="absolute top-0 start-0 transform -translate-x-8 -translate-y-4 size-24 text-gray-200 dark:text-neutral-700"
+                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true">
+                        <path
+                            d="M7.39762 10.3C7.39762 11.0733 7.14888 11.7 6.6514 12.18C6.15392 12.6333 5.52552 12.86 4.76621 12.86C3.84979 12.86 3.09047 12.5533 2.48825 11.94C1.91222 11.3266 1.62421 10.4467 1.62421 9.29999C1.62421 8.07332 1.96459 6.87332 2.64535 5.69999C3.35231 4.49999 4.33418 3.55332 5.59098 2.85999L6.4943 4.25999C5.81354 4.73999 5.26369 5.27332 4.84476 5.85999C4.45201 6.44666 4.19017 7.12666 4.05926 7.89999C4.29491 7.79332 4.56983 7.73999 4.88403 7.73999C5.61716 7.73999 6.21938 7.97999 6.69067 8.45999C7.16197 8.93999 7.39762 9.55333 7.39762 10.3ZM14.6242 10.3C14.6242 11.0733 14.3755 11.7 13.878 12.18C13.3805 12.6333 12.7521 12.86 11.9928 12.86C11.0764 12.86 10.3171 12.5533 9.71484 11.94C9.13881 11.3266 8.85079 10.4467 8.85079 9.29999C8.85079 8.07332 9.19117 6.87332 9.87194 5.69999C10.5789 4.49999 11.5608 3.55332 12.8176 2.85999L13.7209 4.25999C13.0401 4.73999 12.4903 5.27332 12.0713 5.85999C11.6786 6.44666 11.4168 7.12666 11.2858 7.89999C11.5215 7.79332 11.7964 7.73999 12.1106 7.73999C12.8437 7.73999 13.446 7.97999 13.9173 8.45999C14.3886 8.93999 14.6242 9.55333 14.6242 10.3Z"
+                            fill="currentColor" />
+                    </svg>
+
+                    <div class="relative z-10">
+                        <p class="text-xs font-semibold text-gray-500 uppercase mb-3 dark:text-neutral-200">
+                            Featured client
+                        </p>
+
+                        <p
+                            class="text-xl font-medium italic text-gray-800 md:text-2xl md:leading-normal xl:text-3xl xl:leading-normal dark:text-neutral-200">
+                            To say that switching to Preline has been life-changing is an understatement. My business
+                            has tripled and I got my life back.
+                        </p>
+                    </div>
+
+                    <footer class="mt-6">
+                        <div class="flex items-center">
+                            <div class="md:hidden shrink-0">
+                                <img class="size-12 rounded-full"
+                                    src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                                    alt="Avatar">
+                            </div>
+                            <div class="ms-4 md:ms-0">
+                                <div class="text-base font-semibold text-gray-800 dark:text-neutral-200">Nicole Grazioso
+                                </div>
+                                <div class="text-xs text-gray-500 dark:text-neutral-400">Director Payments & Risk |
+                                    Airbnb</div>
+                            </div>
+                        </div>
+                    </footer>
+
+                    <div class="mt-8 lg:mt-14">
+                        <a class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-gray-800 text-white hover:bg-gray-900 focus:outline-hidden focus:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none dark:bg-white dark:text-neutral-800"
+                            href="#">
+                            Read the story
+                        </a>
+                    </div>
+                </blockquote>
+                <!-- End Blockquote -->
+            </div>
+            <!-- End Col -->
+        </div>
+        <!-- End Grid -->
+    </div>
+    <!-- End Testimonials -->
 </x-layouts.app>
