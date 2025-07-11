@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Lab</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script src="https://cdn.jsdelivr.net/npm/preline@2.0.3/dist/preline.min.js"></script>
 </head>
 
 <body class="dark:bg-neutral-900">
@@ -28,7 +29,8 @@
                         <path
                             d="M5 29.5V16.66C5 12.1534 8.58172 8.5 13 8.5C17.4183 8.5 21 12.1534 21 16.66C21 21.1666 17.4183 24.82 13 24.82H12"
                             class="stroke-black dark:stroke-white" stroke="currentColor" stroke-width="2" />
-                        <circle cx="13" cy="16.5214" r="5" class="fill-black dark:fill-white" fill="currentColor" />
+                        <circle cx="13" cy="16.5214" r="5" class="fill-black dark:fill-white"
+                            fill="currentColor" />
                     </svg>
                 </a>
                 <!-- End Logo -->
@@ -135,7 +137,9 @@
 </body>
 
 <script>
-    const { element } = HSThemeSwitch.getInstance('#theme-switch', true);
+    const {
+        element
+    } = HSThemeSwitch.getInstance('#theme-switch', true);
     const destroyBtn = document.querySelector('#destroy-btn');
 
     destroyBtn.addEventListener('click', () => {

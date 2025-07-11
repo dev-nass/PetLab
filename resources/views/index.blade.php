@@ -168,13 +168,15 @@
     </div>
     <!-- End Hero -->
 
+    <!-- Section 2 -->
     <div class="max-w-[85rem] mx-auto text-center py-15">
         <h1 class="text-6xl font-bold">Hello</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quis amet harum rerum maxime delectus veniam
             ullam magni, autem aut?</p>
     </div>
+    <!-- End section 2 -->
 
-    <!-- Features -->
+    <!-- Section 3 -->
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <!-- Tab Nav -->
         <nav class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-y-px sm:gap-y-0 sm:gap-x-4" aria-label="Tabs"
@@ -363,129 +365,383 @@
         </div>
         <!-- End Tab Content -->
     </div>
-    <!-- End Features -->
-    
-    <!-- Testimonials -->
+    <!-- End Section 3 -->
+
+    <!-- Section 4 -->
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <!-- Grid -->
-        <div class="md:grid md:grid-cols-2 md:gap-10 lg:gap-16 md:items-center">
-            <div class="hidden md:block mb-24 md:mb-0 sm:px-6">
-                <div class="relative">
-                    <img class="rounded-xl"
-                        src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=500&h=600&q=80"
-                        alt="Avatar">
-
-                    <!-- SVG Element -->
-                    <div class="absolute bottom-0 start-0 -z-1 translate-y-10 -translate-x-14">
-                        <svg class="max-w-40 h-auto text-gray-400 dark:text-neutral-700" width="696" height="653"
-                            viewBox="0 0 696 653" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="72.5" cy="29.5" r="29.5" fill="currentColor" />
-                            <circle cx="171.5" cy="29.5" r="29.5" fill="currentColor" />
-                            <circle cx="270.5" cy="29.5" r="29.5" fill="currentColor" />
-                            <circle cx="369.5" cy="29.5" r="29.5" fill="currentColor" />
-                            <circle cx="468.5" cy="29.5" r="29.5" fill="currentColor" />
-                            <circle cx="567.5" cy="29.5" r="29.5" fill="currentColor" />
-                            <circle cx="666.5" cy="29.5" r="29.5" fill="currentColor" />
-                            <circle cx="29.5" cy="128.5" r="29.5" fill="currentColor" />
-                            <circle cx="128.5" cy="128.5" r="29.5" fill="currentColor" />
-                            <circle cx="227.5" cy="128.5" r="29.5" fill="currentColor" />
-                            <circle cx="326.5" cy="128.5" r="29.5" fill="currentColor" />
-                            <circle cx="425.5" cy="128.5" r="29.5" fill="currentColor" />
-                            <circle cx="524.5" cy="128.5" r="29.5" fill="currentColor" />
-                            <circle cx="623.5" cy="128.5" r="29.5" fill="currentColor" />
-                            <circle cx="72.5" cy="227.5" r="29.5" fill="currentColor" />
-                            <circle cx="171.5" cy="227.5" r="29.5" fill="currentColor" />
-                            <circle cx="270.5" cy="227.5" r="29.5" fill="currentColor" />
-                            <circle cx="369.5" cy="227.5" r="29.5" fill="currentColor" />
-                            <circle cx="468.5" cy="227.5" r="29.5" fill="currentColor" />
-                            <circle cx="567.5" cy="227.5" r="29.5" fill="currentColor" />
-                            <circle cx="666.5" cy="227.5" r="29.5" fill="currentColor" />
-                            <circle cx="29.5" cy="326.5" r="29.5" fill="currentColor" />
-                            <circle cx="128.5" cy="326.5" r="29.5" fill="currentColor" />
-                            <circle cx="227.5" cy="326.5" r="29.5" fill="currentColor" />
-                            <circle cx="326.5" cy="326.5" r="29.5" fill="currentColor" />
-                            <circle cx="425.5" cy="326.5" r="29.5" fill="currentColor" />
-                            <circle cx="524.5" cy="326.5" r="29.5" fill="currentColor" />
-                            <circle cx="623.5" cy="326.5" r="29.5" fill="currentColor" />
-                            <circle cx="72.5" cy="425.5" r="29.5" fill="currentColor" />
-                            <circle cx="171.5" cy="425.5" r="29.5" fill="currentColor" />
-                            <circle cx="270.5" cy="425.5" r="29.5" fill="currentColor" />
-                            <circle cx="369.5" cy="425.5" r="29.5" fill="currentColor" />
-                            <circle cx="468.5" cy="425.5" r="29.5" fill="currentColor" />
-                            <circle cx="567.5" cy="425.5" r="29.5" fill="currentColor" />
-                            <circle cx="666.5" cy="425.5" r="29.5" fill="currentColor" />
-                            <circle cx="29.5" cy="524.5" r="29.5" fill="currentColor" />
-                            <circle cx="128.5" cy="524.5" r="29.5" fill="currentColor" />
-                            <circle cx="227.5" cy="524.5" r="29.5" fill="currentColor" />
-                            <circle cx="326.5" cy="524.5" r="29.5" fill="currentColor" />
-                            <circle cx="425.5" cy="524.5" r="29.5" fill="currentColor" />
-                            <circle cx="524.5" cy="524.5" r="29.5" fill="currentColor" />
-                            <circle cx="623.5" cy="524.5" r="29.5" fill="currentColor" />
-                            <circle cx="72.5" cy="623.5" r="29.5" fill="currentColor" />
-                            <circle cx="171.5" cy="623.5" r="29.5" fill="currentColor" />
-                            <circle cx="270.5" cy="623.5" r="29.5" fill="currentColor" />
-                            <circle cx="369.5" cy="623.5" r="29.5" fill="currentColor" />
-                            <circle cx="468.5" cy="623.5" r="29.5" fill="currentColor" />
-                            <circle cx="567.5" cy="623.5" r="29.5" fill="currentColor" />
-                            <circle cx="666.5" cy="623.5" r="29.5" fill="currentColor" />
-                        </svg>
-                    </div>
-                    <!-- End SVG Element -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Card -->
+            <div
+                class="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+                <div class="h-52 flex flex-col justify-center items-center bg-blue-600 rounded-t-xl">
+                    <svg class="size-28" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect width="56" height="56" rx="10" fill="white" />
+                        <path
+                            d="M20.2819 26.7478C20.1304 26.5495 19.9068 26.4194 19.6599 26.386C19.4131 26.3527 19.1631 26.4188 18.9647 26.5698C18.848 26.6622 18.7538 26.78 18.6894 26.9144L10.6019 43.1439C10.4874 43.3739 10.4686 43.6401 10.5496 43.884C10.6307 44.1279 10.805 44.3295 11.0342 44.4446C11.1681 44.5126 11.3163 44.5478 11.4664 44.5473H22.7343C22.9148 44.5519 23.0927 44.5037 23.2462 44.4084C23.3998 44.3132 23.5223 44.1751 23.5988 44.011C26.0307 38.9724 24.5566 31.3118 20.2819 26.7478Z"
+                            fill="url(#paint0_linear_2204_541)" />
+                        <path
+                            d="M28.2171 11.9791C26.201 15.0912 25.026 18.6755 24.8074 22.3805C24.5889 26.0854 25.3342 29.7837 26.9704 33.1126L32.403 44.0113C32.4833 44.1724 32.6067 44.3079 32.7593 44.4026C32.912 44.4973 33.088 44.5475 33.2675 44.5476H44.5331C44.6602 44.5479 44.7861 44.523 44.9035 44.4743C45.0209 44.4257 45.1276 44.3543 45.2175 44.2642C45.3073 44.1741 45.3785 44.067 45.427 43.9492C45.4755 43.8314 45.5003 43.7052 45.5 43.5777C45.5001 43.4274 45.4659 43.2791 45.3999 43.1441L29.8619 11.9746C29.7881 11.8184 29.6717 11.6864 29.5261 11.594C29.3805 11.5016 29.2118 11.4525 29.0395 11.4525C28.8672 11.4525 28.6984 11.5016 28.5529 11.594C28.4073 11.6864 28.2908 11.8184 28.2171 11.9746V11.9791Z"
+                            fill="#2684FF" />
+                        <defs>
+                            <linearGradient id="paint0_linear_2204_541" x1="24.734" y1="29.2284" x2="16.1543"
+                                y2="44.0429" gradientUnits="userSpaceOnUse">
+                                <stop offset="0%" stop-color="#0052CC" />
+                                <stop offset="0.92" stop-color="#2684FF" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="p-4 md:p-6">
+                    <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
+                        Atlassian API
+                    </span>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                        Atlassian
+                    </h3>
+                    <p class="mt-3 text-gray-500 dark:text-neutral-500">
+                        A software that develops products for software developers and developments.
+                    </p>
+                </div>
+                <div
+                    class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
+                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        href="#">
+                        View sample
+                    </a>
+                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        href="#">
+                        View API
+                    </a>
                 </div>
             </div>
-            <!-- End Col -->
+            <!-- End Card -->
 
-            <div>
-                <!-- Blockquote -->
-                <blockquote class="relative">
-                    <svg class="absolute top-0 start-0 transform -translate-x-8 -translate-y-4 size-24 text-gray-200 dark:text-neutral-700"
-                        width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
-                        aria-hidden="true">
-                        <path
-                            d="M7.39762 10.3C7.39762 11.0733 7.14888 11.7 6.6514 12.18C6.15392 12.6333 5.52552 12.86 4.76621 12.86C3.84979 12.86 3.09047 12.5533 2.48825 11.94C1.91222 11.3266 1.62421 10.4467 1.62421 9.29999C1.62421 8.07332 1.96459 6.87332 2.64535 5.69999C3.35231 4.49999 4.33418 3.55332 5.59098 2.85999L6.4943 4.25999C5.81354 4.73999 5.26369 5.27332 4.84476 5.85999C4.45201 6.44666 4.19017 7.12666 4.05926 7.89999C4.29491 7.79332 4.56983 7.73999 4.88403 7.73999C5.61716 7.73999 6.21938 7.97999 6.69067 8.45999C7.16197 8.93999 7.39762 9.55333 7.39762 10.3ZM14.6242 10.3C14.6242 11.0733 14.3755 11.7 13.878 12.18C13.3805 12.6333 12.7521 12.86 11.9928 12.86C11.0764 12.86 10.3171 12.5533 9.71484 11.94C9.13881 11.3266 8.85079 10.4467 8.85079 9.29999C8.85079 8.07332 9.19117 6.87332 9.87194 5.69999C10.5789 4.49999 11.5608 3.55332 12.8176 2.85999L13.7209 4.25999C13.0401 4.73999 12.4903 5.27332 12.0713 5.85999C11.6786 6.44666 11.4168 7.12666 11.2858 7.89999C11.5215 7.79332 11.7964 7.73999 12.1106 7.73999C12.8437 7.73999 13.446 7.97999 13.9173 8.45999C14.3886 8.93999 14.6242 9.55333 14.6242 10.3Z"
-                            fill="currentColor" />
+            <!-- Card -->
+            <div
+                class="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+                <div class="h-52 flex flex-col justify-center items-center bg-rose-500 rounded-t-xl">
+                    <svg class="size-28" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect width="56" height="56" rx="10" fill="white" />
+                        <g clip-path="url(#clip0_2204_541)">
+                            <path
+                                d="M37.0409 28.8697C33.1968 28.8697 30.0811 31.9854 30.0811 35.8288C30.0811 39.6726 33.1968 42.789 37.0409 42.789C40.8843 42.789 44 39.6726 44 35.8288C44 31.9854 40.8843 28.8697 37.0409 28.8697ZM18.9594 28.8701C15.116 28.8704 12 31.9854 12 35.8292C12 39.6726 15.116 42.7886 18.9594 42.7886C22.8032 42.7886 25.9192 39.6726 25.9192 35.8292C25.9192 31.9854 22.8032 28.8701 18.9591 28.8701H18.9594ZM34.9595 20.1704C34.9595 24.0138 31.8438 27.1305 28.0004 27.1305C24.1563 27.1305 21.0406 24.0138 21.0406 20.1704C21.0406 16.3269 24.1563 13.2109 28.0003 13.2109C31.8438 13.2109 34.9591 16.3269 34.9591 20.1704H34.9595Z"
+                                fill="url(#paint0_radial_2204_541)" />
+                        </g>
+                        <defs>
+                            <radialGradient id="paint0_radial_2204_541" cx="0" cy="0" r="1"
+                                gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(28.0043 29.3944) scale(21.216 19.6102)">
+                                <stop offset="0%" stop-color="#FFB900" />
+                                <stop offset="0.6" stop-color="#F95D8F" />
+                                <stop offset="0.999" stop-color="#F95353" />
+                            </radialGradient>
+                            <clipPath id="clip0_2204_541">
+                                <rect width="32" height="29.5808" fill="white" transform="translate(12 13.2096)" />
+                            </clipPath>
+                        </defs>
                     </svg>
-
-                    <div class="relative z-10">
-                        <p class="text-xs font-semibold text-gray-500 uppercase mb-3 dark:text-neutral-200">
-                            Featured client
-                        </p>
-
-                        <p
-                            class="text-xl font-medium italic text-gray-800 md:text-2xl md:leading-normal xl:text-3xl xl:leading-normal dark:text-neutral-200">
-                            To say that switching to Preline has been life-changing is an understatement. My business
-                            has tripled and I got my life back.
-                        </p>
-                    </div>
-
-                    <footer class="mt-6">
-                        <div class="flex items-center">
-                            <div class="md:hidden shrink-0">
-                                <img class="size-12 rounded-full"
-                                    src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                                    alt="Avatar">
-                            </div>
-                            <div class="ms-4 md:ms-0">
-                                <div class="text-base font-semibold text-gray-800 dark:text-neutral-200">Nicole Grazioso
-                                </div>
-                                <div class="text-xs text-gray-500 dark:text-neutral-400">Director Payments & Risk |
-                                    Airbnb</div>
-                            </div>
-                        </div>
-                    </footer>
-
-                    <div class="mt-8 lg:mt-14">
-                        <a class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-gray-800 text-white hover:bg-gray-900 focus:outline-hidden focus:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none dark:bg-white dark:text-neutral-800"
-                            href="#">
-                            Read the story
-                        </a>
-                    </div>
-                </blockquote>
-                <!-- End Blockquote -->
+                </div>
+                <div class="p-4 md:p-6">
+                    <span class="block mb-1 text-xs font-semibold uppercase text-rose-600 dark:text-rose-500">
+                        Asana API
+                    </span>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                        Asana
+                    </h3>
+                    <p class="mt-3 text-gray-500 dark:text-neutral-500">
+                        Track tasks and projects, use agile boards, measure progress.
+                    </p>
+                </div>
+                <div
+                    class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
+                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        href="#">
+                        View sample
+                    </a>
+                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        href="#">
+                        View API
+                    </a>
+                </div>
             </div>
-            <!-- End Col -->
+            <!-- End Card -->
+
+            <!-- Card -->
+            <div
+                class="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+                <div class="h-52 flex flex-col justify-center items-center bg-amber-500 rounded-t-xl">
+                    <svg class="size-28" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect width="56" height="56" rx="10" fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M23.7326 11.968C21.9637 11.9693 20.5321 13.4049 20.5334 15.1738C20.5321 16.9427 21.965 18.3782 23.7339 18.3795H26.9345V15.1751C26.9358 13.4062 25.5029 11.9706 23.7326 11.968C23.7339 11.968 23.7339 11.968 23.7326 11.968M23.7326 20.5184H15.2005C13.4316 20.5197 11.9987 21.9553 12 23.7242C11.9974 25.4931 13.4303 26.9286 15.1992 26.9312H23.7326C25.5016 26.9299 26.9345 25.4944 26.9332 23.7255C26.9345 21.9553 25.5016 20.5197 23.7326 20.5184V20.5184Z"
+                            fill="#36C5F0" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M44.0001 23.7242C44.0014 21.9553 42.5684 20.5197 40.7995 20.5184C39.0306 20.5197 37.5977 21.9553 37.599 23.7242V26.9312H40.7995C42.5684 26.9299 44.0014 25.4944 44.0001 23.7242ZM35.4666 23.7242V15.1738C35.4679 13.4062 34.0363 11.9706 32.2674 11.968C30.4985 11.9693 29.0656 13.4049 29.0669 15.1738V23.7242C29.0643 25.4931 30.4972 26.9286 32.2661 26.9312C34.035 26.9299 35.4679 25.4944 35.4666 23.7242Z"
+                            fill="#2EB67D" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M32.2661 44.0322C34.035 44.0309 35.4679 42.5953 35.4666 40.8264C35.4679 39.0575 34.035 37.622 32.2661 37.6207H29.0656V40.8264C29.0642 42.594 30.4972 44.0295 32.2661 44.0322ZM32.2661 35.4804H40.7995C42.5684 35.4791 44.0013 34.0436 44 32.2747C44.0026 30.5058 42.5697 29.0702 40.8008 29.0676H32.2674C30.4985 29.0689 29.0656 30.5045 29.0669 32.2734C29.0656 34.0436 30.4972 35.4791 32.2661 35.4804V35.4804Z"
+                            fill="#ECB22E" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 32.2746C11.9987 34.0435 13.4316 35.479 15.2005 35.4804C16.9694 35.479 18.4024 34.0435 18.401 32.2746V29.0688H15.2005C13.4316 29.0702 11.9987 30.5057 12 32.2746ZM20.5334 32.2746V40.825C20.5308 42.5939 21.9637 44.0295 23.7326 44.0321C25.5016 44.0308 26.9345 42.5952 26.9332 40.8263V32.2772C26.9358 30.5083 25.5029 29.0728 23.7339 29.0702C21.9637 29.0702 20.5321 30.5057 20.5334 32.2746C20.5334 32.2759 20.5334 32.2746 20.5334 32.2746Z"
+                            fill="#E01E5A" />
+                    </svg>
+                </div>
+                <div class="p-4 md:p-6">
+                    <span class="block mb-1 text-xs font-semibold uppercase text-amber-500">
+                        Slack API
+                    </span>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                        Slack
+                    </h3>
+                    <p class="mt-3 text-gray-500 dark:text-neutral-500">
+                        Email collaboration and email service desk made easy.
+                    </p>
+                </div>
+                <div
+                    class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
+                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        href="#">
+                        View sample
+                    </a>
+                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        href="#">
+                        View API
+                    </a>
+                </div>
+            </div>
+            <!-- End Card -->
         </div>
         <!-- End Grid -->
     </div>
-    <!-- End Testimonials -->
+    <!--  End Section 4 -->
+
+    <!-- Section 5 -->
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div class="max-w-5xl mx-auto">
+            <!-- Grid -->
+            <div class="grid gap-12">
+                <div class="lg:text-center">
+                    <h2 class="text-3xl text-gray-800 font-bold lg:text-4xl dark:text-white">
+                        Our vision
+                    </h2>
+                    <p class="mt-3 text-gray-800 dark:text-neutral-400">
+                        For as long as there have been cities, the public square has been a fundamental part of the
+                        urban landscape - an open, approachable space to meet and engage with friends and neighbours.
+                        Space aims to capture this spirit of bringing people together in an exciting, welcoming
+                        environment.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-3 space-y-6 lg:space-y-10 lg:space-x-8">
+                    <!-- Icon Block -->
+                    <div class="flex lg:flex-col gap-x-5 sm:gap-x-8">
+                        <svg class="shrink-0 mt-2 size-6 text-gray-800 dark:text-white"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+                            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+                            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
+                            <path d="M10 6h4" />
+                            <path d="M10 10h4" />
+                            <path d="M10 14h4" />
+                            <path d="M10 18h4" />
+                        </svg>
+                        <div class="grow">
+                            <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                                High quality Co-Living spaces
+                            </h3>
+                            <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                                Our fully furnished spaces are designed and purpose-built with Co-Living in mind,
+                                featuring high-end finishes and amenities that go far beyond traditional apartment
+                                buildings.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Icon Block -->
+
+                    <!-- Icon Block -->
+                    <div class="flex lg:flex-col gap-x-5 sm:gap-x-8">
+                        <svg class="shrink-0 mt-2 size-6 text-gray-800 dark:text-white"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                        <div class="grow">
+                            <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                                Fostering vibrant communities
+                            </h3>
+                            <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                                Our passion is bringing people together. Beyond creating beautiful spaces, we provide
+                                shared experiences.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Icon Block -->
+
+                    <!-- Icon Block -->
+                    <div class="flex lg:flex-col gap-x-5 sm:gap-x-8">
+                        <svg class="shrink-0 mt-2 size-6 text-gray-800 dark:text-white"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M7 10v12" />
+                            <path
+                                d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z" />
+                        </svg>
+                        <div class="grow">
+                            <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                                Simple and all-inclusive
+                            </h3>
+                            <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                                We worry about the details so that our residents don't have to. From our online
+                                application process to simple, all-inclusive billing we aim to make the living
+                                experience as effortless as possible.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Icon Block -->
+                </div>
+            </div>
+            <!-- End Grid -->
+        </div>
+    </div>
+    <!-- End Section 5 -->
+
+    <!-- Section 6 -->
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <!-- Approach -->
+  <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
+    <!-- Title -->
+    <div class="max-w-3xl mb-10 lg:mb-14">
+      <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">Our approach</h2>
+      <p class="mt-1 text-neutral-400">This profound insight guides our comprehensive strategy — from meticulous research and strategic planning to the seamless execution of brand development and website or product deployment.</p>
+    </div>
+    <!-- End Title -->
+
+    <!-- Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
+      <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
+        <img class="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1587614203976-365c74645e83?q=80&w=480&h=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Features Image">
+      </div>
+      <!-- End Col -->
+
+      <!-- Timeline -->
+      <div>
+        <!-- Heading -->
+        <div class="mb-4">
+          <h3 class="text-[#ff0] text-xs font-medium uppercase">
+            Steps
+          </h3>
+        </div>
+        <!-- End Heading -->
+
+        <!-- Item -->
+        <div class="flex gap-x-5 ms-1">
+          <!-- Icon -->
+          <div class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+            <div class="relative z-10 size-8 flex justify-center items-center">
+              <span class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                1
+              </span>
+            </div>
+          </div>
+          <!-- End Icon -->
+
+          <!-- Right Content -->
+          <div class="grow pt-0.5 pb-8 sm:pb-12">
+            <p class="text-sm lg:text-base text-neutral-400">
+              <span class="text-white">Market Research and Analysis:</span>
+              Identify your target audience and understand their needs, preferences, and behaviors.
+            </p>
+          </div>
+          <!-- End Right Content -->
+        </div>
+        <!-- End Item -->
+
+        <!-- Item -->
+        <div class="flex gap-x-5 ms-1">
+          <!-- Icon -->
+          <div class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+            <div class="relative z-10 size-8 flex justify-center items-center">
+              <span class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                2
+              </span>
+            </div>
+          </div>
+          <!-- End Icon -->
+
+          <!-- Right Content -->
+          <div class="grow pt-0.5 pb-8 sm:pb-12">
+            <p class="text-sm lg:text-base text-neutral-400">
+              <span class="text-white">Product Development and Testing:</span>
+              Develop digital products or services that address the needs and preferences of your target audience.
+            </p>
+          </div>
+          <!-- End Right Content -->
+        </div>
+        <!-- End Item -->
+
+        <!-- Item -->
+        <div class="flex gap-x-5 ms-1">
+          <!-- Icon -->
+          <div class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+            <div class="relative z-10 size-8 flex justify-center items-center">
+              <span class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                3
+              </span>
+            </div>
+          </div>
+          <!-- End Icon -->
+
+          <!-- Right Content -->
+          <div class="grow pt-0.5 pb-8 sm:pb-12">
+            <p class="text-sm md:text-base text-neutral-400">
+              <span class="text-white">Marketing and Promotion:</span>
+              Develop a comprehensive marketing strategy to promote your digital products or services.
+            </p>
+          </div>
+          <!-- End Right Content -->
+        </div>
+        <!-- End Item -->
+
+        <!-- Item -->
+        <div class="flex gap-x-5 ms-1">
+          <!-- Icon -->
+          <div class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+            <div class="relative z-10 size-8 flex justify-center items-center">
+              <span class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                4
+              </span>
+            </div>
+          </div>
+          <!-- End Icon -->
+
+          <!-- Right Content -->
+          <div class="grow pt-0.5 pb-8 sm:pb-12">
+            <p class="text-sm md:text-base text-neutral-400">
+              <span class="text-white">Launch and Optimization:</span>
+              Launch your digital products or services to the market, closely monitoring their performance and user feedback.
+            </p>
+          </div>
+          <!-- End Right Content -->
+        </div>
+        <!-- End Item -->
+
+        <a class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ff0] font-medium text-sm text-neutral-800 rounded-full focus:outline-hidden" href="#">
+          <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path><path class="opacity-0 group-hover:opacity-100 group-focus:opacity-100 group-hover:delay-100 transition" d="M14.05 2a9 9 0 0 1 8 7.94"></path><path class="opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition" d="M14.05 6A5 5 0 0 1 18 10"></path></svg>
+          Schedule a call
+        </a>
+      </div>
+      <!-- End Timeline -->
+    </div>
+    <!-- End Grid -->
+  </div>
+</div>
+    <!-- End Section 6 -->
 </x-layouts.app>

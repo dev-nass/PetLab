@@ -14,4 +14,12 @@ class Vet extends Model
     {
         return $this->hasMany(Appointment::class);
     }
+
+    /**
+    * Prescriptions can be given by vet
+    */
+    public function precriptions()
+    {
+        return $this->hasMany(Prescription::class);
+    }
 }
