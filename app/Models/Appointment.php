@@ -26,8 +26,8 @@ class Appointment extends Model
         return $this->belongsTo(User::class);
     }
 
-     /**
-     * an appointment belongs to a pet
+    /**
+    * an appointment can be associated to a pet
     */
     public function pet()
     {
