@@ -9,21 +9,21 @@
                 <h1
                     class="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white"
                 >
-                    Start your journey with
-                    <span class="text-blue-600">Preline</span>
+                    Begin your pet care journey with
+                    <span class="text-green-600">Pet Lab</span>
                 </h1>
                 <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400">
-                    Hand-picked professionals and expertly crafted components,
-                    designed for any kind of entrepreneur.
+                    Carefully selected veterinarians and user-friendly
+                    scheduling tools, built for every pet parent.
                 </p>
 
                 <!-- Buttons -->
                 <div class="mt-7 grid gap-3 w-full sm:inline-flex">
                     <a
-                        class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                        class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-green-600 text-white hover:bg-green-700 focus:outline-hidden focus:bg-green-700 disabled:opacity-50 disabled:pointer-events-none"
                         href="#"
                     >
-                        Get started
+                        Sign In
                         <svg
                             class="shrink-0 size-4"
                             xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@
                         class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
                         href="#"
                     >
-                        Contact sales team
+                        Contact Us
                     </a>
                 </div>
                 <!-- End Buttons -->
@@ -291,10 +291,13 @@
 
     <!-- Section 2 -->
     <div class="max-w-[85rem] mx-auto text-center py-15">
-        <h1 class="text-6xl font-bold">Hello</h1>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quis
-            amet harum rerum maxime delectus veniam ullam magni, autem aut?
+        <h1
+            class="text-4xl text-gray-800 dark:text-white font-bold lg:w-[25ch] mx-auto"
+        >
+            Only Pet Lab lets you choose the veterinarian for your pet's care
+        </h1>
+        <p class="text-gray-800 dark:text-white mt-3">
+            Connect with thousands of highly rated veterinarians on Pet Lab.
         </p>
     </div>
     <!-- End section 2 -->
@@ -318,7 +321,7 @@
                 role="tab"
             >
                 <svg
-                    class="shrink-0 hidden sm:block size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-white"
+                    class="shrink-0 hidden sm:block size-7 hs-tab-active:text-green-600 text-gray-800 dark:hs-tab-active:text-green-500 dark:text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -343,13 +346,13 @@
                 </svg>
                 <span class="sm:mt-5">
                     <span
-                        class="hs-tab-active:text-blue-600 block font-semibold text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
-                        >All-in-one workspace</span
+                        class="hs-tab-active:text-green-600 block font-semibold text-gray-800 dark:hs-tab-active:text-green-500 dark:text-neutral-200"
+                        >Choose the perfect vet for your pet</span
                     >
                     <span
                         class="hidden lg:block mt-2 text-gray-800 dark:text-neutral-200"
-                        >Create a business, whether you’ve got a fresh
-                        idea.</span
+                        >Explore vet profiles and see reviews from fellow pet
+                        parents.</span
                     >
                 </span>
             </button>
@@ -364,7 +367,7 @@
                 role="tab"
             >
                 <svg
-                    class="shrink-0 hidden sm:block size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-white"
+                    class="shrink-0 hidden sm:block size-7 hs-tab-active:text-green-600 text-gray-800 dark:hs-tab-active:text-green-500 dark:text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -380,13 +383,13 @@
                 </svg>
                 <span class="sm:mt-5">
                     <span
-                        class="hs-tab-active:text-blue-600 block font-semibold text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
-                        >Automation on a whole new level</span
+                        class="hs-tab-active:text-green-600 block font-semibold text-gray-800 dark:hs-tab-active:text-green-500 dark:text-neutral-200"
+                        >Get expert pet care anytime</span
                     >
                     <span
                         class="hidden lg:block mt-2 text-gray-800 dark:text-neutral-200"
-                        >Use automation to scale campaigns profitably and save
-                        time doing it.</span
+                        >Message a veterinarian instantly or schedule a video
+                        call, all from home.</span
                     >
                 </span>
             </button>
@@ -401,7 +404,7 @@
                 role="tab"
             >
                 <svg
-                    class="shrink-0 hidden sm:block size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-white"
+                    class="shrink-0 hidden sm:block size-7 hs-tab-active:text-green-600 text-gray-800 dark:hs-tab-active:text-green-500 dark:text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -422,13 +425,13 @@
                 </svg>
                 <span class="sm:mt-5">
                     <span
-                        class="hs-tab-active:text-blue-600 block font-semibold text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
-                        >Solving problems for every team</span
+                        class="hs-tab-active:text-green-600 block font-semibold text-gray-800 dark:hs-tab-active:text-green-500 dark:text-neutral-200"
+                        >Keep your pet’s health records safe</span
                     >
                     <span
                         class="hidden lg:block mt-2 text-gray-800 dark:text-neutral-200"
-                        >One tool for your company to share knowledge and ship
-                        projects.</span
+                        >Access your pet’s complete medical history and
+                        treatment details in the Pet Lab site.</span
                     >
                 </span>
             </button>
@@ -634,8 +637,13 @@
 
     <!-- Section 4 -->
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <h1
+            class="text-3xl text-gray-800 text-center font-bold lg:w-[28ch] mx-auto dark:text-white"
+        >
+            Built with veterinarians, trusted by pet parents
+        </h1>
         <!-- Grid -->
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="grid sm:grid-cols-2 mt-4 lg:grid-cols-3 gap-6">
             <!-- Card -->
             <div
                 class="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70"
@@ -690,22 +698,6 @@
                         A software that develops products for software
                         developers and developments.
                     </p>
-                </div>
-                <div
-                    class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700"
-                >
-                    <a
-                        class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-                        href="#"
-                    >
-                        View sample
-                    </a>
-                    <a
-                        class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-                        href="#"
-                    >
-                        View API
-                    </a>
                 </div>
             </div>
             <!-- End Card -->
@@ -772,22 +764,6 @@
                         progress.
                     </p>
                 </div>
-                <div
-                    class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700"
-                >
-                    <a
-                        class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-                        href="#"
-                    >
-                        View sample
-                    </a>
-                    <a
-                        class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-                        href="#"
-                    >
-                        View API
-                    </a>
-                </div>
             </div>
             <!-- End Card -->
 
@@ -848,22 +824,6 @@
                         Email collaboration and email service desk made easy.
                     </p>
                 </div>
-                <div
-                    class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700"
-                >
-                    <a
-                        class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-                        href="#"
-                    >
-                        View sample
-                    </a>
-                    <a
-                        class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-                        href="#"
-                    >
-                        View API
-                    </a>
-                </div>
             </div>
             <!-- End Card -->
         </div>
@@ -883,12 +843,12 @@
                         Our vision
                     </h2>
                     <p class="mt-3 text-gray-800 dark:text-neutral-400">
-                        For as long as there have been cities, the public square
-                        has been a fundamental part of the urban landscape - an
-                        open, approachable space to meet and engage with friends
-                        and neighbours. Space aims to capture this spirit of
-                        bringing people together in an exciting, welcoming
-                        environment.
+                        Pet Lab connects pet parents with trusted veterinarians
+                        through a seamless, user-friendly platform, fostering a
+                        welcoming community where expert pet care, convenient
+                        scheduling, and personalized health solutions ensure
+                        every pet receives exceptional care from the comfort of
+                        home.
                     </p>
                 </div>
 
@@ -896,7 +856,7 @@
                     class="grid lg:grid-cols-3 space-y-6 lg:space-y-10 lg:space-x-8"
                 >
                     <!-- Icon Block -->
-                    <div class="flex lg:flex-col gap-x-5 sm:gap-x-8">
+                    <div class="flex lg:flex-col gap-x-5 gap-y-3 sm:gap-x-8">
                         <svg
                             class="shrink-0 mt-2 size-6 text-gray-800 dark:text-white"
                             xmlns="http://www.w3.org/2000/svg"
@@ -925,20 +885,56 @@
                             <h3
                                 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200"
                             >
-                                High quality Co-Living spaces
+                                Expert Guidance & Care
                             </h3>
                             <p class="mt-1 text-gray-600 dark:text-neutral-400">
-                                Our fully furnished spaces are designed and
-                                purpose-built with Co-Living in mind, featuring
-                                high-end finishes and amenities that go far
-                                beyond traditional apartment buildings.
+                                Our veterinarians collaborate with you to
+                                address your pet’s health and wellness needs,
+                                offering personalized advice, clear guidance,
+                                and actionable next steps to ensure your pet
+                                receives the best care and support for a happy,
+                                healthy life.
                             </p>
                         </div>
                     </div>
                     <!-- End Icon Block -->
 
                     <!-- Icon Block -->
-                    <div class="flex lg:flex-col gap-x-5 sm:gap-x-8">
+                    <div class="flex lg:flex-col gap-x-5 gap-y-3 sm:gap-x-8">
+                        <svg
+                            class="shrink-0 mt-2 size-6 text-gray-800 dark:text-white"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path d="M7 10v12" />
+                            <path
+                                d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z"
+                            />
+                        </svg>
+                        <div class="grow">
+                            <h3
+                                class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200"
+                            >
+                                Worry-Free Pet Care
+                            </h3>
+                            <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                                With Pet Lab’s 24/7 access to expert veterinary
+                                advice, you can rest assured your pet’s health
+                                is always in trusted hands.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Icon Block -->
+
+                    <!-- Icon Block -->
+                    <div class="flex lg:flex-col gap-x-5 gap-y-3 sm:gap-x-8">
                         <svg
                             class="shrink-0 mt-2 size-6 text-gray-800 dark:text-white"
                             xmlns="http://www.w3.org/2000/svg"
@@ -962,48 +958,13 @@
                             <h3
                                 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200"
                             >
-                                Fostering vibrant communities
+                                Over-the-Counter Product Recommendations
                             </h3>
                             <p class="mt-1 text-gray-600 dark:text-neutral-400">
-                                Our passion is bringing people together. Beyond
-                                creating beautiful spaces, we provide shared
-                                experiences.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- End Icon Block -->
-
-                    <!-- Icon Block -->
-                    <div class="flex lg:flex-col gap-x-5 sm:gap-x-8">
-                        <svg
-                            class="shrink-0 mt-2 size-6 text-gray-800 dark:text-white"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                        >
-                            <path d="M7 10v12" />
-                            <path
-                                d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z"
-                            />
-                        </svg>
-                        <div class="grow">
-                            <h3
-                                class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200"
-                            >
-                                Simple and all-inclusive
-                            </h3>
-                            <p class="mt-1 text-gray-600 dark:text-neutral-400">
-                                We worry about the details so that our residents
-                                don't have to. From our online application
-                                process to simple, all-inclusive billing we aim
-                                to make the living experience as effortless as
-                                possible.
+                                Pet Lab veterinarians can suggest safe,
+                                non-medicated products to support your pet’s
+                                health needs, tailored to their specific
+                                concerns.
                             </p>
                         </div>
                     </div>
@@ -1018,19 +979,19 @@
     <!-- Section 6 -->
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <!-- Approach -->
-        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
+        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-10 lg:pb-20 mx-auto">
             <!-- Title -->
             <div class="max-w-3xl mb-10 lg:mb-14">
                 <h2
-                    class="text-white font-semibold text-2xl md:text-4xl md:leading-tight"
+                    class="text-gray-800 dark:text-white font-semibold text-2xl md:text-4xl md:leading-tight"
                 >
                     Our approach
                 </h2>
                 <p class="mt-1 text-neutral-400">
-                    This profound insight guides our comprehensive strategy —
-                    from meticulous research and strategic planning to the
-                    seamless execution of brand development and website or
-                    product deployment.
+                    Pet Lab’s strategy focuses on thorough research, intuitive
+                    design, and seamless execution to deliver a user-friendly
+                    platform that connects pet parents with trusted
+                    veterinarians for exceptional pet care.
                 </p>
             </div>
             <!-- End Title -->
@@ -1052,7 +1013,9 @@
                 <div>
                     <!-- Heading -->
                     <div class="mb-4">
-                        <h3 class="text-[#ff0] text-xs font-medium uppercase">
+                        <h3
+                            class="text-green-500 text-xs font-semibold uppercase"
+                        >
                             Steps
                         </h3>
                     </div>
@@ -1068,7 +1031,7 @@
                                 class="relative z-10 size-8 flex justify-center items-center"
                             >
                                 <span
-                                    class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full"
+                                    class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-green-500 font-semibold text-xs uppercase rounded-full"
                                 >
                                     1
                                 </span>
@@ -1079,11 +1042,12 @@
                         <!-- Right Content -->
                         <div class="grow pt-0.5 pb-8 sm:pb-12">
                             <p class="text-sm lg:text-base text-neutral-400">
-                                <span class="text-white"
-                                    >Market Research and Analysis:</span
+                                <span class="text-gray-800 dark:text-white"
+                                    >Create Your Pet Lab Account:</span
                                 >
-                                Identify your target audience and understand
-                                their needs, preferences, and behaviors.
+                                Sign up easily to join Pet Lab and start
+                                connecting with trusted veterinarians for your
+                                pet’s care.
                             </p>
                         </div>
                         <!-- End Right Content -->
@@ -1100,7 +1064,7 @@
                                 class="relative z-10 size-8 flex justify-center items-center"
                             >
                                 <span
-                                    class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full"
+                                    class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-green-500 font-semibold text-xs uppercase rounded-full"
                                 >
                                     2
                                 </span>
@@ -1111,12 +1075,12 @@
                         <!-- Right Content -->
                         <div class="grow pt-0.5 pb-8 sm:pb-12">
                             <p class="text-sm lg:text-base text-neutral-400">
-                                <span class="text-white"
-                                    >Product Development and Testing:</span
+                                <span class="text-gray-800 dark:text-white"
+                                    >Browse Trusted Veterinarians:</span
                                 >
-                                Develop digital products or services that
-                                address the needs and preferences of your target
-                                audience.
+                                Explore profiles of top-rated vets, read
+                                reviews, and find the perfect match for your
+                                pet’s needs.
                             </p>
                         </div>
                         <!-- End Right Content -->
@@ -1133,7 +1097,7 @@
                                 class="relative z-10 size-8 flex justify-center items-center"
                             >
                                 <span
-                                    class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full"
+                                    class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-green-500 font-semibold text-xs uppercase rounded-full"
                                 >
                                     3
                                 </span>
@@ -1144,11 +1108,12 @@
                         <!-- Right Content -->
                         <div class="grow pt-0.5 pb-8 sm:pb-12">
                             <p class="text-sm md:text-base text-neutral-400">
-                                <span class="text-white"
-                                    >Marketing and Promotion:</span
+                                <span class="text-gray-800 dark:text-white"
+                                    >Book Your Appointment:</span
                                 >
-                                Develop a comprehensive marketing strategy to
-                                promote your digital products or services.
+                                Schedule a convenient in-person or virtual vet
+                                visit with just a few clicks, tailored to your
+                                availability.
                             </p>
                         </div>
                         <!-- End Right Content -->
@@ -1165,7 +1130,7 @@
                                 class="relative z-10 size-8 flex justify-center items-center"
                             >
                                 <span
-                                    class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full"
+                                    class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-green-500 font-semibold text-xs uppercase rounded-full"
                                 >
                                     4
                                 </span>
@@ -1176,12 +1141,12 @@
                         <!-- Right Content -->
                         <div class="grow pt-0.5 pb-8 sm:pb-12">
                             <p class="text-sm md:text-base text-neutral-400">
-                                <span class="text-white"
-                                    >Launch and Optimization:</span
+                                <span class="text-gray-800 dark:text-white"
+                                    >Enjoy Happy, Healthy Pets:</span
                                 >
-                                Launch your digital products or services to the
-                                market, closely monitoring their performance and
-                                user feedback.
+                                Experience peace of mind as you and your pet
+                                receive expert care and personalized support
+                                from Pet Lab.
                             </p>
                         </div>
                         <!-- End Right Content -->
@@ -1189,7 +1154,7 @@
                     <!-- End Item -->
 
                     <a
-                        class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ff0] font-medium text-sm text-neutral-800 rounded-full focus:outline-hidden"
+                        class="group inline-flex items-center gap-x-2 py-2 px-3 bg-green-600 font-medium text-sm text-neutral-800 rounded-full focus:outline-hidden"
                         href="#"
                     >
                         <svg

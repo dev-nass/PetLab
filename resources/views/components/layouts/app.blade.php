@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Lab</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script src="https://cdn.jsdelivr.net/npm/preline@2.0.3/dist/preline.min.js"></script>
@@ -38,25 +38,8 @@
 
             <!-- Button Group -->
             <div class="flex items-center gap-x-1 lg:gap-x-2 ms-auto py-1 lg:ps-6 lg:order-3 lg:col-span-3">
-                <button type="button"
-                    class="size-9.5 relative flex justify-center items-center rounded-xl bg-white border border-gray-200 text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-white">
-                    <span class="sr-only">Search</span>
-                    <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="m21 21-4.34-4.34" />
-                        <circle cx="11" cy="11" r="8" />
-                    </svg>
-                </button>
-                <button type="button"
-                    class="hs-dark-mode hs-dark-mode-active:hidden size-9.5 relative flex justify-center items-center rounded-xl bg-white border border-gray-200 text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-white"
-                    data-hs-theme-click-value="dark">
-                    <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
-                    </svg>
-                </button>
+                <x-nav-search-btn />
+                <x-nav-toggle-btn />
                 <button type="button"
                     class="hs-dark-mode hs-dark-mode-active:inline-flex hidden size-9.5 relative justify-center items-center rounded-xl bg-white border border-gray-200 text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-white"
                     data-hs-theme-click-value="light">
@@ -75,8 +58,8 @@
                     </svg>
                 </button>
                 <button type="button"
-                    class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium text-nowrap rounded-xl border border-transparent bg-yellow-400 text-black hover:bg-yellow-500 focus:outline-hidden focus:bg-yellow-500 transition disabled:opacity-50 disabled:pointer-events-none">
-                    Sign in
+                    class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium text-nowrap rounded-xl border border-transparent bg-green-600 text-white hover:bg-green-700 focus:outline-hidden focus:bg-green-700 transition disabled:opacity-50 disabled:pointer-events-none">
+                    See a vet
                 </button>
 
                 <div class="lg:hidden">
@@ -109,42 +92,85 @@
                 <div
                     class="flex flex-col gap-y-4 gap-x-0 mt-5 lg:flex-row lg:justify-center lg:items-center lg:gap-y-0 lg:gap-x-7 lg:mt-0">
                     <div>
-                        <a class="relative inline-block text-black focus:outline-hidden before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-yellow-400 dark:text-white"
-                            href="#" aria-current="page">Home</a>
+                        <x-nav-link text="Home" href="#" aria-current="page" />
                     </div>
                     <div>
-                        <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
-                            href="#">Listings</a>
+                        <!-- Mega Menu -->
+                        <div
+                            class="hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none] md:[--adaptive:adaptive] [--is-collapse:true] md:[--is-collapse:false]">
+                            <x-nav-mega-link-button heading="For pet parents" />
+                            <x-nav-mega-link-dropdown>
+                                <div class="py-1 md:px-1 space-y-0.5">
+                                    <!-- Link -->
+                                    <x-nav-mega-link heading="Find nearby pet"
+                                        subheading="Bet at ease that you can always find the nearest vet clinic around you" />
+                                    <!-- End Link -->
+
+                                    <div class="my-2 border-t border-gray-100 dark:border-neutral-800"></div>
+
+                                    <x-nav-mega-link heading="Pet health knowledge"
+                                        subheading="Read some blog written by veterinarians about your pet's health" />
+                                </div>
+                            </x-nav-mega-link-dropdown>
+                        </div>
+                        <!-- End Mega Menu -->
                     </div>
                     <div>
-                        <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
-                            href="#">Product</a>
+                        <!-- Mega Menu -->
+                        <div
+                            class="hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none] md:[--adaptive:adaptive] [--is-collapse:true] md:[--is-collapse:false]">
+                            <x-nav-mega-link-button heading="For vets" />
+                            <x-nav-mega-link-dropdown>
+                                <div class="py-1 md:px-1 space-y-0.5">
+                                    <!-- Link -->
+                                    <x-nav-mega-link heading="Become an online vet"
+                                        subheading="Establish your profile to start having clients" alert=true
+                                        alert_text="Register now" />
+                                    <!-- End Link -->
+                                </div>
+                            </x-nav-mega-link-dropdown>
+                        </div>
+                        <!-- End Mega Menu -->
                     </div>
                     <div>
-                        <a class="inline-block text-black hover:text-gray-600 focus:outline-hidden focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
-                            href="#">Checkout</a>
+                        <!-- Mega Menu -->
+                        <div
+                            class="hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none] md:[--adaptive:adaptive] [--is-collapse:true] md:[--is-collapse:false]">
+                            <x-nav-mega-link-button heading="About" />
+                            <x-nav-mega-link-dropdown>
+                                <div class="py-1 md:px-1 space-y-0.5">
+                                    <!-- Link -->
+                                    <x-nav-mega-link heading="Pet Lab"
+                                        subheading="Learn more about the mission, vision and goals of Pet Lab" />
+                                    <!-- End Link -->
+
+                                    <div class="my-2 border-t border-gray-100 dark:border-neutral-800"></div>
+
+                                    <!-- Link -->
+                                    <x-nav-mega-link heading="Developers"
+                                        subheading="Learn more about the brains and creator behind Pet Lab" />
+
+                                    <!-- End Link -->
+                                </div>
+                            </x-nav-mega-link-dropdown>
+                        </div>
                     </div>
+                    <!-- End Mega Menu -->
                 </div>
+            </div>
             </div>
             <!-- End Collapse -->
         </nav>
     </header>
     <!-- ========== END HEADER ========== -->
 
-    <main>
-        {{ $slot }}
-    </main>
+    <main>{{ $slot }}</main>
+
+    <footer class="max-w-[85rem] mx-auto text-center pt-15 pb-3">
+        <div class="text-gray-600 dark:text-white">
+            <p>© 2025 Pet Lab. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
-
-<script>
-    const {
-        element
-    } = HSThemeSwitch.getInstance('#theme-switch', true);
-    const destroyBtn = document.querySelector('#destroy-btn');
-
-    destroyBtn.addEventListener('click', () => {
-        element.destroy();
-    });
-</script>
 
 </html>
