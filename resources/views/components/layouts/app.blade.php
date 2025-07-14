@@ -1,3 +1,5 @@
+@props(['shownav' => true, 'showfooter' => true])
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +13,7 @@
 
 <body class="dark:bg-neutral-900">
     <!-- ========== HEADER ========== -->
-    <header class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full py-3">
+    <header class="{{ $shownav ? '' : 'hidden' }} flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full py-3">
         <nav
             class="relative max-w-7xl w-full flex flex-wrap lg:grid lg:grid-cols-12 basis-full items-center px-4 md:px-6 lg:px-8 mx-auto">
             <div class="lg:col-span-3 flex items-center">
@@ -57,31 +59,8 @@
                         <path d="m19.07 4.93-1.41 1.41"></path>
                     </svg>
                 </button>
-                <button type="button"
-                    class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium text-nowrap rounded-xl border border-transparent bg-green-600 text-white hover:bg-green-700 focus:outline-hidden focus:bg-green-700 transition disabled:opacity-50 disabled:pointer-events-none">
-                    See a vet
-                </button>
-
-                <div class="lg:hidden">
-                    <button type="button"
-                        class="hs-collapse-toggle size-9.5 flex justify-center items-center text-sm font-semibold rounded-xl border border-gray-200 text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
-                        id="hs-pro-hcail-collapse" aria-expanded="false" aria-controls="hs-pro-hcail"
-                        aria-label="Toggle navigation" data-hs-collapse="#hs-pro-hcail">
-                        <svg class="hs-collapse-open:hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg"
-                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="3" x2="21" y1="6" y2="6" />
-                            <line x1="3" x2="21" y1="12" y2="12" />
-                            <line x1="3" x2="21" y1="18" y2="18" />
-                        </svg>
-                        <svg class="hs-collapse-open:block hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg"
-                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M18 6 6 18" />
-                            <path d="m6 6 12 12" />
-                        </svg>
-                    </button>
-                </div>
+                <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium text-nowrap rounded-xl border border-transparent bg-green-600 text-white hover:bg-green-700 focus:outline-hidden focus:bg-green-700 transition disabled:opacity-50 disabled:pointer-events-none"
+                    href="{{ route('registration.create') }}">Sign In </a>
             </div>
             <!-- End Button Group -->
 
@@ -166,11 +145,17 @@
 
     <main>{{ $slot }}</main>
 
-    <footer class="max-w-[85rem] mx-auto text-center pt-15 pb-3">
+    <footer class="{{ $showfooter ? '' : 'hidden' }} max-w-[85rem] mx-auto text-center pt-15 pb-3">
         <div class="text-gray-600 dark:text-white">
             <p>© 2025 Pet Lab. All rights reserved.</p>
         </div>
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/preline@2.0.3/dist/preline.min.js"></script>
+<script>
+    window.addEventListener('load', () => {
+        HSStaticMethods.autoInit();
+    });
+</script>
 
 </html>

@@ -1,6 +1,7 @@
 @import "tailwindcss";
 /* Preline UI */
 @import "../../node_modules/preline/variants.css";
+@plugin "@tailwindcss/forms";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
