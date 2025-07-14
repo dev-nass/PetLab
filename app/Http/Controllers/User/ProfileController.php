@@ -12,4 +12,10 @@ class ProfileController extends Controller
     {
         return view('user.profile.index');
     }
+
+    //
+    public function edit()
+    {
+        return view();
+    }
 }

@@ -146,16 +146,18 @@
     <main>{{ $slot }}</main>
 
     <footer class="{{ $showfooter ? '' : 'hidden' }} max-w-[85rem] mx-auto text-center pt-15 pb-3">
-        <div class="text-gray-600 dark:text-white">
+        <div class="text-gray-800 text-base dark:text-neutral-400">
             <p>© 2025 Pet Lab. All rights reserved.</p>
         </div>
     </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/preline@2.0.3/dist/preline.min.js"></script>
+
+<!--
 <script>
     window.addEventListener('load', () => {
         HSStaticMethods.autoInit();
     });
 </script>
+-->
 
 </html>

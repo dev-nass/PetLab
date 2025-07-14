@@ -1,5 +1,5 @@
 <x-layouts.app>
-    <div class="max-w-[85rem] mx-auto mt-10 mb-7 px-4 sm:px-6 flex justify-end">
+    <header class="max-w-[85rem] mx-auto mt-10 mb-7 px-4 sm:px-6 flex justify-end">
         <a href="#"
             class="text-neutral-800 border border-gray-200 py-2 px-3 rounded-lg text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 hover:fill-gray-200 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-white me-2">Add
             Pet</a>
@@ -7,8 +7,8 @@
         <a href="#"
             class="text-neutral-800 border border-gray-200 py-2 px-3 rounded-lg text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 hover:fill-gray-200 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-white">Edit
             Profile</a>
-    </div>
-    <div class="max-w-[85rem] mx-auto grid px-4 sm:px-6 lg:px-8 lg:grid-cols-3 lg:gap-x-8">
+    </header>
+    <main class="max-w-[85rem] mx-auto grid px-4 sm:px-6 lg:px-8 lg:grid-cols-3 lg:gap-x-8">
         <div class="col-span-2">
             <!-- Profile -->
             <div class="flex items-center gap-x-3">
@@ -29,21 +29,12 @@
             </div>
             <!-- End Profile -->
 
-            <!-- About -->
+            <!-- Contact Information  -->
             <div class="mt-8">
-                <p class="text-sm md:text-base text-gray-600 dark:text-neutral-400">
-                    I am a seasoned graphic designer with over 14 years of experience in creating visually appealing and
-                    user-centric designs. My expertise spans across UI design, design systems, and custom illustrations,
-                    helping clients bring their digital visions to life.
-                </p>
 
-                <p class="mt-3 text-sm md:text-base text-gray-600 dark:text-neutral-400">
-                    Currently, I work remotely for Notion, where I design template UIs, convert them into HTML and CSS,
-                    and
-                    provide comprehensive support to our users. I am passionate about crafting elegant and functional
-                    designs that enhance user experiences.
-                </p>
-
+                <h1 class="text-base md:text-xl font-medium text-gray-800 dark:text-neutral-200">
+                    Contact Information:
+                </h1>
                 <ul class="mt-5 flex flex-col gap-y-3">
                     <li class="flex items-center gap-x-2.5">
                         <svg class="shrink-0 size-3.5 text-gray-800 dark:text-neutral-200"
@@ -89,11 +80,33 @@
                     </li>
                 </ul>
             </div>
+            <!-- End Contact Information -->
+
+            <!-- About -->
+            <div class="mt-8">
+
+                <h1 class="text-base md:text-xl font-medium text-gray-800 dark:text-neutral-200">
+                    Address:
+                </h1>
+                <p class="text-sm md:text-base text-gray-600 dark:text-neutral-400">
+                    I am a seasoned graphic designer with over 14 years of experience in creating visually appealing and
+                    user-centric designs. My expertise spans across UI design, design systems, and custom illustrations,
+                    helping clients bring their digital visions to life.
+                </p>
+                <p class="mt-3 text-sm md:text-base text-gray-600 dark:text-neutral-400">
+                    Currently, I work remotely for Notion, where I design template UIs, convert them into HTML and CSS,
+                    and
+                    provide comprehensive support to our users. I am passionate about crafting elegant and functional
+                    designs that enhance user experiences.
+                </p>
+            </div>
             <!-- End About -->
         </div>
-        <div class="border border-gray-300 rounded-lg text-black  shadow-lg dark:border-neutral-700 dark:text-white">
 
+        <!-- Pets Col -->
+        <div class="border border-gray-300 rounded-lg text-black  shadow-lg dark:border-neutral-700 dark:text-white">
         </div>
-    </div>
+        <!-- End Pets Col -->
+    </main>
 
 </x-layouts.app>
