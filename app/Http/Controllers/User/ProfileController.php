@@ -16,6 +16,6 @@ class ProfileController extends Controller
     //
     public function edit()
     {
-        return view();
+        return view('user.profile.edit');
     }
 }

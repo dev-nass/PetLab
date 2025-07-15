@@ -19,4 +19,5 @@ Route::middleware('guest')->group(function () {
 
 Route::controller(ProfileController::class)->group(function () {
     Route::get('/profile', 'index');
+    Route::get('/profile/edit', 'edit')->name('profile.edit');
 });

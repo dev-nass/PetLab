@@ -1,11 +1,11 @@
 <x-layouts.app>
     <header class="max-w-[85rem] mx-auto mt-10 mb-7 px-4 sm:px-6 flex justify-end">
         <a href="#"
-            class="text-neutral-800 border border-gray-200 py-2 px-3 rounded-lg text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 hover:fill-gray-200 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-white me-2">Add
+            class="text-neutral-800 border border-gray-200 py-2 px-3 rounded-lg text-black hover:bg-gray-100 focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 hover:fill-gray-200 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-white me-2">Add
             Pet</a>
 
-        <a href="#"
-            class="text-neutral-800 border border-gray-200 py-2 px-3 rounded-lg text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 hover:fill-gray-200 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-white">Edit
+        <a href="{{ route('profile.edit') }}"
+            class="text-neutral-800 border border-gray-200 py-2 px-3 rounded-lg text-black hover:bg-gray-100 focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 hover:fill-gray-200 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-white">Edit
             Profile</a>
     </header>
     <main class="max-w-[85rem] mx-auto grid px-4 sm:px-6 lg:px-8 lg:grid-cols-3 lg:gap-x-8">

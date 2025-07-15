@@ -8,7 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Lab</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <script src="https://cdn.jsdelivr.net/npm/preline@2.0.3/dist/preline.min.js"></script>
+    <!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.css">
+    -->
 </head>
 
 <body class="dark:bg-neutral-900">
@@ -60,7 +64,7 @@
                     </svg>
                 </button>
                 <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium text-nowrap rounded-xl border border-transparent bg-green-600 text-white hover:bg-green-700 focus:outline-hidden focus:bg-green-700 transition disabled:opacity-50 disabled:pointer-events-none"
-                    href="{{ route('registration.create') }}">Sign In </a>
+                    href="{{ route('login.create') }}">Sign In </a>
             </div>
             <!-- End Button Group -->
 
@@ -151,7 +155,6 @@
         </div>
     </footer>
 </body>
-
 <!--
 <script>
     window.addEventListener('load', () => {
