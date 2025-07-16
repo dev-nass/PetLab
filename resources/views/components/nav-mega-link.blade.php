@@ -1,7 +1,7 @@
 @props(['heading', 'subheading', 'alert' => false, 'alert_text' => ''])
 
-<a class="p-3 flex gap-x-4 hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 rounded-lg dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
-    href="#">
+<a
+    {{ $attributes->merge(['class' => 'p-3 flex gap-x-4 hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 rounded-lg dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700']) }}>
     <div class="grow">
         <span class="block font-semibold text-sm text-gray-800 dark:text-neutral-200">
             {{ $heading }}
