@@ -23,7 +23,7 @@ Route::middleware('guest')->group(function () {
  * User (Pet Parent) Profile Page
  */
 Route::controller(UserProfileController::class)->group(function () {
-    Route::get('/profile', 'index');
+    Route::get('user/profile', 'index');
     Route::get('/profile/edit', 'edit')->name('profile.edit');
 });
 
@@ -42,5 +42,5 @@ Route::middleware('guest')->group(function () {
  * Vet Profile Page
  */
 Route::controller(VetProfileController::class)->group(function () {
-    Route::get('/profile', 'index');
+    Route::get('vet/profile', 'index');
 });
